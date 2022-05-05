@@ -1,0 +1,187 @@
+.page-container {
+	max-width: 100%;
+	min-height: 100%;
+	display: flex;
+	padding: 20px 20px;
+	&::before {
+		content: '';
+		border: 1px solid #B8BFC3;
+		background-color: #B8BFC3;
+		align-self: stretch;
+	}
+}
+
+//|| COMMON CONTAINER STYLES
+
+.section-item {
+	padding: 20px;
+}
+
+// || NAVBAR
+
+.section-item--start {
+	min-height: 100%;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	order: -1;
+	nav {
+		ul {
+			padding-left: 0;
+		}
+		li {
+			list-style: none;
+			margin-bottom: 15px;
+			a {
+				background-size: cover;
+				text-decoration: none;
+				color: black;
+				padding-bottom: 20px;
+				transition: 0.3s;
+				border-radius: 6px;
+				&:hover {
+					background-color: #B8BFC3;
+				}
+			}
+		}
+	}
+}
+
+// || BRAND
+.brand-name {
+	color: #2F4159;
+}
+.logo {
+	color: #2F4159;
+	margin-right: 10px;
+}
+
+// || PROFILE
+.user-info {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.circle {
+	height: 40px;
+	width: 40px;
+	display: flex;
+	background-color: #B8BFC3;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+// || LOGOUT
+.logout {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+.brand {
+	display: inline-block;
+}
+
+.brand-name {
+	font-weight: bold;
+}
+
+// || CONTAINER RIGHT
+
+.section-item--end {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-section {
+	display: flex;
+	max-width: 100%;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	button {
+		cursor: pointer;
+		font-weight: bold;
+		border: none;
+		padding: 16px 40px;
+		border-radius: 6px;
+		margin-right: 20px;
+		background-color: #2F4159;
+		color: white;
+		transition: 0.3s;
+		&:hover {
+			background-color: #233143;
+		}
+	}
+}
+
+.title {
+	margin-top: 0;
+}
+
+// || SEARCH FORM
+
+.search-section {
+	display: flex;
+	min-width: 100%;
+	margin-bottom: 50px;
+	& > * {
+		margin-right: 10px;
+	}
+	input {
+		min-width: 50%;
+	}
+	button {
+		cursor: pointer;
+		font-weight: bold;
+		border: none;
+		padding: 16px 40px;
+		border-radius: 6px;
+		margin-right: 20px;
+		background-color: #2F4159;
+		color: white;
+		transition: 0.3s;
+		&:hover {
+			background-color: #233143;
+		}
+	}
+}
+
+// || BOTTOM SECTION
+
+.bottom-section {
+	display: flex;
+	flex-direction: column;
+}
+
+// || TAB CONTAINER
+
+.tab-container {
+	margin-bottom: 7px;
+	span:not(:last-child) {
+		margin-right: 15px;
+	}
+}
+
+.horizontal-bar {
+	border: 1px solid #B8BFC3;
+	margin-bottom: 25px;
+	background-color: #B8BFC3;
+}
+
+// || FLIGHT DATA
+
+.data-category {
+	display: flex;
+	flex-direction: column;
+
+}
