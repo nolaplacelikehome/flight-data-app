@@ -1,0 +1,25 @@
+.search-section {
+	display: flex;
+	min-width: 100%;
+	margin-bottom: 50px;
+	& > * {
+		margin-right: 10px;
+	}
+	input {
+		min-width: 50%;
+	}
+	button {
+		cursor: pointer;
+		font-weight: bold;
+		border: none;
+		padding: 16px 40px;
+		border-radius: 6px;
+		margin-right: 20px;
+		background-color: #2F4159;
+		color: white;
+		transition: 0.3s;
+		&:hover {
+			background-color: #233143;
+		}
+	}
+}

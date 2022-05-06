@@ -1,0 +1,27 @@
+.search-section {
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 50px;
+}
+.search-section > * {
+  margin-right: 10px;
+}
+.search-section input {
+  min-width: 50%;
+}
+.search-section button {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 6px;
+  margin-right: 20px;
+  background-color: #2F4159;
+  color: white;
+  transition: 0.3s;
+}
+.search-section button:hover {
+  background-color: #233143;
+}
+
+/*# sourceMappingURL=FlightSearch.css.map */

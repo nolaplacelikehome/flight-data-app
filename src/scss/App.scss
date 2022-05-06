@@ -1,0 +1,18 @@
+.page-container {
+	max-width: 100%;
+	min-height: 100%;
+	display: flex;
+	padding: 20px 20px;
+	&::before {
+		content: '';
+		border: 1px solid #B8BFC3;
+		background-color: #B8BFC3;
+		align-self: stretch;
+	}
+}
+
+//|| COMMON CONTAINER STYLES
+
+.section-item {
+	padding: 20px;
+}

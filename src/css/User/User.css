@@ -1,0 +1,17 @@
+.user-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  background-color: #B8BFC3;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=User.css.map */
