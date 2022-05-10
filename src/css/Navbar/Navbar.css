@@ -1,10 +1,13 @@
 .section-item--start {
   min-height: 100%;
-  width: 25%;
+  min-width: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   order: -1;
+}
+.section-item--start:nth-child(1) {
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=Navbar.css.map */

@@ -1,20 +1,21 @@
 nav {
+	margin: 0 0 200px -10px;
 	ul {
 		padding-left: 0;
 	}
 	li {
 		list-style: none;
 		margin-bottom: 15px;
-		a {
-			background-size: cover;
-			text-decoration: none;
-			color: black;
-			padding-bottom: 20px;
-			transition: 0.3s;
-			border-radius: 6px;
-			&:hover {
+		padding: 10px;
+		transition: 0.3s;
+		border-radius: 6px;	
+		&:hover {
 				background-color: #B8BFC3;
 			}
+		a {
+			text-decoration: none;
+			color: black;
+			width: 100%;
 		}
 	}
 }
