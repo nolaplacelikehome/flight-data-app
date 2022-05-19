@@ -8,6 +8,14 @@
 }
 .search-section input {
   min-width: 50%;
+  padding-left: 10px;
+}
+.search-section input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.search-section input:focus::placeholder {
+  color: transparent;
 }
 .search-section button {
   cursor: pointer;

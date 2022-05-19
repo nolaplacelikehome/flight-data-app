@@ -1,4 +1,26 @@
-.data-category {
+.forecast-container {
+	max-width: 50%;
+	min-height: 100px;
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+	padding: 10px;
+}
+
+.top-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+.weather-data {
 	display: flex;
-	flex-direction: column;
+	justify-content: flex-start;
+	gap: 80px;
+	.temp-data {
+		display: flex;
+		gap: 20px;
+	}
+	.something {
+		display: flex;
+		gap: 20px;
+	}
 }

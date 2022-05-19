@@ -7,7 +7,7 @@ export default function Brand() {
 	return (
 		<div className="brand">
 			<span className="logo"><FontAwesomeIcon icon={faPlane} /></span>
-			<span className="brand-name">Flight Data</span>
+			<span className="brand-name">Weather Data</span>
 		</div>
 	)
 }

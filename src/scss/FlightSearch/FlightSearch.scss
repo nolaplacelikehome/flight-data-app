@@ -7,6 +7,14 @@
 	}
 	input {
 		min-width: 50%;
+		&::placeholder {
+			color: black;
+			font-weight: bold;
+		}
+		&:focus::placeholder {
+			color: transparent;
+		}
+		padding-left: 10px;
 	}
 	button {
 		cursor: pointer;
